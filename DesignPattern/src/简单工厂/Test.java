@@ -11,6 +11,11 @@ public class Test {
 		AutomobileProduct bus=AutomobileFactory.createProduct(ProductType.Bus);
 		bus.introduceProduct("½ðÉ«", (float) 4.0);
 
+		AutomobileProduct truck=AutomobileFactory.createProduct(ProductType.Truck);
+		truck.introduceProduct("ºìÉ«", (float) 6.0);
+
+
+
 	}
 
 }
