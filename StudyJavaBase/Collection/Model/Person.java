@@ -36,15 +36,31 @@ public class Person {
 	}
 
 	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + Age;
+		result = prime * result + ((Name == null) ? 0 : Name.hashCode());
+		return result;
+	}
+
+	@Override
 	public boolean equals(Object obj) {
-
-		Person p = (Person) obj;
-		if (this.Name.equals(p.getName()) && this.Age == p.getAge()) {
+		if (this == obj)
 			return true;
-		} else {
-
+		if (obj == null)
 			return false;
-		}
+		if (getClass() != obj.getClass())
+			return false;
+		Person other = (Person) obj;
+		if (Age != other.Age)
+			return false;
+		if (Name == null) {
+			if (other.Name != null)
+				return false;
+		} else if (!Name.equals(other.Name))
+			return false;
+		return true;
 	}
 
 }

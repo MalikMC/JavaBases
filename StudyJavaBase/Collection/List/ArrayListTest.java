@@ -15,6 +15,7 @@ public class ArrayListTest {
 		list.add(new Person("李四", 24));
 		list.add(new Person("王五", 25));
 		list.add(new Person("赵六", 26));
+	
 
 		getList(list, 0);
 		System.out.println("==================================");
