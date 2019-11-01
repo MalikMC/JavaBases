@@ -5,7 +5,8 @@ import java.util.HashSet;
 import Model.Person;
 
 /**
- * Set的特点：元素不能重复，没有索引，存取顺序不能保持一致 e
+ * Set的特点：元素不能重复，没有索引，存取顺序不能保持一致 
+ * Hashset 去重复是重写了hashCode和equal 方法实现的，自定义对象如果不重新的话，Hashset存入的就是重复数据。
  */
 
 public class HashSetTest {
