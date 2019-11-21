@@ -5,6 +5,8 @@
 	<classpathentry kind="src" path="Circulate"/>
 	<classpathentry kind="src" path="Object"/>
 	<classpathentry kind="src" path="Collection"/>
+	<classpathentry kind="src" path="Map"/>
+	<classpathentry kind="src" path="Thread"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11">
 		<attributes>
 			<attribute name="module" value="true"/>
