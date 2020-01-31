@@ -12,5 +12,6 @@
 	<classpathentry kind="lib" path="lib/spring-context-4.2.4.RELEASE.jar"/>
 	<classpathentry kind="lib" path="lib/spring-core-4.2.4.RELEASE.jar"/>
 	<classpathentry kind="lib" path="lib/spring-expression-4.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-aop-4.2.4.RELEASE.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
